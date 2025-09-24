@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Title Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .input-container {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 300px;
+        }
+        input:hover {
+            border-color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Input Fields with Titles</h1>
+    <form>
+        <div class="input-container">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" title="Enter your full name here">
+        </div>
+        <div class="input-container">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" title="Enter your email address here">
+        </div>
+        <div class="input-container">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" title="Choose a strong password">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
